@@ -1,10 +1,14 @@
 const express = require('express');
-const { generatePayment, checkPaymentStatus, callback } = require('../services/payment-gateway');
+const { generatePayment, checkPaymentStatus, callback, queryToken, unbindCard } = require('../services/payment-gateway');
 const gatewayRouter = express.Router();
 
 gatewayRouter.post('/generatePayment', generatePayment);
 
 gatewayRouter.post('/checkTransaction', checkPaymentStatus);
+
+gatewayRouter.post('/queryToken', queryToken);
+
+gatewayRouter.post('/unbindCard', unbindCard);
 
 gatewayRouter.post('/callback', callback);
 

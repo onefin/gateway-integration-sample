@@ -229,10 +229,11 @@
                         <td>
                             <select name="actionMethod">
                                 <OPTION VALUE="0">0</OPTION>
+                                <OPTION VALUE="1">1</OPTION>
                             </select>
                         </td>
-                        <td>Hiện chỉ hỗ trợ actionMethod = 0</td>
-                        <td>Curently suupport actionMethod = 0</td>
+                        <td>Lựa chọn thanh toán bằng token đã lưu => actionMethod = 1, thanh toán bằng thông tin thẻ, actionMethod = 0</td>
+                        <td>Pay with saved token => actionMethod = 1, pay with card information => actionMethod = 0 </td>
                     </tr>
                     <tr>
                         <td><strong><em>Merchant email</em></strong></td>
@@ -298,15 +299,15 @@
                     </tr>
                     <tr>
                         <td><strong><em>Member ID</em></strong></td>
-                        <td><input type="text" name="memberId" readonly  maxlength="255" value="" /></td>
-                        <td>ID thành viên của người dùng (hiện không khả dụng )</td>
-                        <td>Member ID (curently unavailable)</td>
+                        <td><input type="text" name="memberId"   maxlength="255" value="" /></td>
+                        <td>ID thành viên của người dùng</td>
+                        <td>Member ID</td>
                     </tr>
                     <tr>
                         <td><strong><em>Payment Token</em></strong></td>
-                        <td><input type="text" name="paymentToken" maxlength="255" readonly value="" /></td>
-                        <td>Token thanh toán (hiện không khả dụng )</td>
-                        <td>Payment Token (curently unavailable)</td>
+                        <td><input type="text" name="paymentToken" maxlength="255"  value="" /></td>
+                        <td>Token thanh toán </td>
+                        <td>Payment Token </td>
                     </tr>
                 </tbody>
             </table>

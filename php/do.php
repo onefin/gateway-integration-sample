@@ -37,12 +37,14 @@ $body->signature = $signature;
 $body->messages = $jsonMessage;
 
 $response = curl_post($onefinURL,$body);
-if($response != null && $response->messages != null && $response->signature != null){
+if($response != null && isset($response->messages) && isset($response->signature)){
     $signatureVerified = verifySignature($response->messages, $response->signature);
     if($signatureVerified){
         $responseMessage = json_decode($response->messages);
         header("Location: ".$responseMessage->paymentURL);
     }
+}else{
+    echo json_encode($response);
 }
 // *******************
 // END OF MAIN PROGRAM

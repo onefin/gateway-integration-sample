@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-    <title>OneFin Query Transaction Example</title>
+    <title>OneFin Query Token Example</title>
     <meta http-equiv='Content-Type' content='text/html; charset=utf8'>
     <style type="text/css">
         <!--
@@ -157,7 +157,7 @@
 <table width='100%' border='2' cellpadding='2' bgcolor='#0074C4'>
     <tr>
         <td bgcolor='#CED7EF' width='90%'>
-            <h2 class='co'>&nbsp;PHP OneFin Query Transaction Example</h2>
+            <h2 class='co'>&nbsp;PHP OneFin Query Token Example</h2>
         </td>
         <td bgcolor='#0074C4' align='center'>
             <h3 class='co'>OneFin</h3>
@@ -165,14 +165,14 @@
     </tr>
 </table>
 <!-- End Branding Table -->
-<form action="./querydr.php" method="post" onsubmit="return validateInput();">
+<form action="./querytoken.php" method="post" onsubmit="return validateInput();">
 <table width="100%" align="center" border="0" cellpadding='0'
        cellspacing='0'>
     <tr class="shade">
         <td width="1%">&nbsp;</td>
         <td width="40%" align="right"><strong><em>URL Query:&nbsp;</em></strong></td>
         <td width="59%"><input type="text" name="virtualPaymentClientURL"
-                               size="63" value="https://sit-pgw.onefin.vn/public/mweb/checkPayment"
+                               size="63" value="https://sit-pgw.onefin.vn/public/mweb/checkToken"
                                maxlength="250"/></td>
     </tr>
 </table>
@@ -193,14 +193,13 @@
             </tfoot>
             <tbody>
             <tr>
-                <td><strong><em>Merchant Transaction Reference</em></strong></td>
-                <td><input type="text" name="trxRefNo" id="txtMtref"
+                <td><strong><em>Member Id</em></strong></td>
+                <td><input type="text" name="memberId" id="txtMtref"
                            value="" size="20"
                            maxlength="50"/></td>
-                <td>ID giao dịch, giá trị phải khác nhau trong mỗi lần thanh(tối đa 50 ký tự)
-                    toán
+                <td>Member Id của merchant -(giá trị duy nhất mỗi merchant) - (max 50 char)
                 </td>
-                <td>ID Transaction - (unique per transaction) - (max 50 char)</td>
+                <td>Member ID - (unique per merchant) - (max 50 char)</td>
             </tr>
             <tr>
                 <td><strong><em>Merchant Code</em></strong></td>

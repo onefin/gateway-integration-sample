@@ -16,7 +16,7 @@ $postData = json_decode($postJson);
 $message = "";
 $map = [];
 // serach if $response contains html error code
-if($postData != null && $postData->messages != null && $postData->signature != null){
+if($postData != null && isset($postData->messages) && isset($postData->signature)){
     $signatureVerified = verifySignature($postData->messages, $postData->signature);
     if($signatureVerified){
         $map = json_decode($postData->messages);

@@ -7,19 +7,11 @@
 
 include 'utils.php';
 
-// add the start of the vpcURL querystring parameters
 $onefinURL = $_POST["virtualPaymentClientURL"];
 
-// Remove the Virtual Payment Client URL from the parameter hash as we 
-// do not want to send these fields to the Virtual Payment Client.
+
 unset($_POST["virtualPaymentClientURL"]); 
 
-// The URL link for the receipt to do another transaction.
-// Note: This is ONLY used for this example and is not required for 
-// production code. You would hard code your own URL into your application.
-
-// Get and URL Encode the AgainLink. Add the AgainLink to the array
-// Shows how a user field (such as application SessionIDs) could be added
 
 $messageObject;
 

@@ -11,8 +11,6 @@ $postJson = file_get_contents('php://input');
 $postData = json_decode($postJson);
 // This is the title for display
 
-// Remove the Virtual Payment Client URL from the parameter hash as we 
-// do not want to send these fields to the Virtual Payment Client.
 $message = "";
 $map = [];
 // serach if $response contains html error code

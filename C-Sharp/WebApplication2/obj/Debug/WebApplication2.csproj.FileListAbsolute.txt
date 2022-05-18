@@ -1,0 +1,30 @@
+C:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\WebApplication2\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+D:\local\local_dotnet\WebApplication2\bin\WebApplication2.dll
+D:\local\local_dotnet\WebApplication2\bin\WebApplication2.pdb
+D:\local\local_dotnet\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
+D:\local\local_dotnet\WebApplication2\obj\Debug\WebApplication2.dll
+D:\local\local_dotnet\WebApplication2\obj\Debug\WebApplication2.pdb
+D:\local_dotnet\local_dotnet\WebApplication2\bin\WebApplication2.dll
+D:\local_dotnet\local_dotnet\WebApplication2\bin\WebApplication2.pdb
+D:\local_dotnet\local_dotnet\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
+D:\local_dotnet\local_dotnet\WebApplication2\obj\Debug\WebApplication2.dll
+D:\local_dotnet\local_dotnet\WebApplication2\obj\Debug\WebApplication2.pdb
+D:\companies\OnePAY\merchant\modules\noidia_c#\local_dotnet\WebApplication2\bin\WebApplication2.dll
+D:\companies\OnePAY\merchant\modules\noidia_c#\local_dotnet\WebApplication2\bin\WebApplication2.pdb
+D:\companies\OnePAY\merchant\modules\noidia_c#\local_dotnet\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
+D:\companies\OnePAY\merchant\modules\noidia_c#\local_dotnet\WebApplication2\obj\Debug\WebApplication2.dll
+D:\companies\OnePAY\merchant\modules\noidia_c#\local_dotnet\WebApplication2\obj\Debug\WebApplication2.pdb
+D:\companies\OnePAY\merchant\modules\quocte_c#\WebApplication2\bin\WebApplication2.dll
+D:\companies\OnePAY\merchant\modules\quocte_c#\WebApplication2\bin\WebApplication2.pdb
+D:\companies\OnePAY\merchant\modules\quocte_c#\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
+D:\companies\OnePAY\merchant\modules\quocte_c#\WebApplication2\obj\Debug\WebApplication2.dll
+D:\companies\OnePAY\merchant\modules\quocte_c#\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Documents and Settings\Administrator\Desktop\quocte_c#\WebApplication2\bin\WebApplication2.dll
+C:\Documents and Settings\Administrator\Desktop\quocte_c#\WebApplication2\bin\WebApplication2.pdb
+C:\Documents and Settings\Administrator\Desktop\quocte_c#\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\quocte_c#\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Documents and Settings\Administrator\Desktop\quocte_c#\WebApplication2\obj\Debug\WebApplication2.pdb

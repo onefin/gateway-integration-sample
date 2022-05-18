@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WebApplication1">
+</Property><Property Name="Solution File" Value="C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\WebApplication1.sln">
+</Property><Property Name="User Options File" Value="C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\WebApplication1.suo">
+</Property><Property Name="Date" Value="Wednesday, March 18, 2015">
+</Property><Property Name="Time" Value="17:45 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WebApplication1.sln" Description="File successfully backed up as C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\Backup\WebApplication1.sln">
+</Event><Event ErrorLevel="0" Project="" Source="WebApplication1.suo" Description="File successfully backed up as C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\Backup\WebApplication1.suo">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="WebApplication1.csproj" Description="Project file successfully backed up as C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\Backup\WebApplication1.csproj">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="WebApplication1.csproj.user" Description="Project user file successfully backed up as C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\Backup\WebApplication1.csproj.user">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="VPCRequest.cs" Description="File successfully backed up as C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\Backup\VPCRequest.cs">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="vpc_do.aspx.cs" Description="File successfully backed up as C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\Backup\vpc_do.aspx.cs">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="vpc_do.aspx.designer.cs" Description="File successfully backed up as C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\Backup\vpc_do.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="vpc_dr.aspx.cs" Description="File successfully backed up as C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\Backup\vpc_dr.aspx.cs">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="vpc_dr.aspx.designer.cs" Description="File successfully backed up as C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\Backup\vpc_dr.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="vpc_queryDR.aspx.cs" Description="File successfully backed up as C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\Backup\vpc_queryDR.aspx.cs">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="vpc_queryDR.aspx.designer.cs" Description="File successfully backed up as C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\Backup\vpc_queryDR.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="vpc_do.aspx" Description="File successfully backed up as C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\Backup\vpc_do.aspx">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="vpc_dr.aspx" Description="File successfully backed up as C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\Backup\vpc_dr.aspx">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="vpc_queryDR.aspx" Description="File successfully backed up as C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\Backup\vpc_queryDR.aspx">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="Web.config" Description="File successfully backed up as C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\Backup\Web.config">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="WebApplication1.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="WebApplication1" Source="WebApplication1.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="WebApplication1.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WebApplication1.sln" Description="Converted">
+</Event></UpgradeLog>

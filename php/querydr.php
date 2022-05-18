@@ -3,17 +3,14 @@
 // START OF MAIN PROGRAM
 // *********************
 
-// add the start of the vpcURL querystring parameters
+
 include 'utils.php';
 $onefinURL = $_POST["virtualPaymentClientURL"];
 
-// This is the title for display
 
-// Remove the Virtual Payment Client URL from the parameter hash as we 
-// do not want to send these fields to the Virtual Payment Client.
 unset($_POST["virtualPaymentClientURL"]);
 
-// create a variable to hold the POST data information and capture it
+
 $messageObject;
 
 foreach($_POST as $key => $value) {
@@ -67,8 +64,6 @@ function null2unknown($map, $key)
 //  ----------------------------------------------------------------------------
 
 // Standard Receipt Data
-# merchTxnRef not always returned in response if no receipt so get input
-//TK//$merchTxnRef     = $vpc_MerchTxnRef;
 $merchTxnRef = $_POST["trxRefNo"];
 
 
@@ -84,11 +79,6 @@ $orderId = null2unknown($map, "orderId");
 $paymentToken = null2unknown($map, "paymentToken");
 $errorCode = null2unknown($map, "errorCode");
 $errorMessage = null2unknown($map, "errorMessage");
-
-
-
-// Define an AMA transaction output for Refund & Capture transactions
-$amaTransaction = true;
 
 /*********************
  * END OF MAIN PROGRAM

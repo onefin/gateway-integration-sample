@@ -1,0 +1,41 @@
+C:\Documents and Settings\Administrator\Desktop\quocte_c#\WebApplication2\bin\WebApplication2.dll
+C:\Documents and Settings\Administrator\Desktop\quocte_c#\WebApplication2\bin\WebApplication2.pdb
+C:\Documents and Settings\Administrator\Desktop\quocte_c#\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\quocte_c#\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Documents and Settings\Administrator\Desktop\quocte_c#\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Documents and Settings\Administrator\Desktop\WebApplication2\bin\WebApplication2.dll
+C:\Documents and Settings\Administrator\Desktop\WebApplication2\bin\WebApplication2.pdb
+C:\Documents and Settings\Administrator\Desktop\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Documents and Settings\Administrator\Desktop\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Documents and Settings\Administrator\Desktop\International_VPC_c#.net\WebApplication2\bin\WebApplication2.dll
+C:\Documents and Settings\Administrator\Desktop\International_VPC_c#.net\WebApplication2\bin\WebApplication2.pdb
+C:\Documents and Settings\Administrator\Desktop\International_VPC_c#.net\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\International_VPC_c#.net\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Documents and Settings\Administrator\Desktop\International_VPC_c#.net\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\Administrator\Desktop\international_c#\source_code\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\international_c#\source_code\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Administrator\Desktop\international_c#\source_code\WebApplication2\bin\WebApplication2.dll
+C:\Users\Administrator\Desktop\international_c#\source_code\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Administrator\Desktop\international_c#\source_code\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\ThuanMD\Desktop\Module\quocte_c\WebApplication2\bin\WebApplication2.dll
+C:\Users\ThuanMD\Desktop\Module\quocte_c\WebApplication2\bin\WebApplication2.pdb
+C:\Users\ThuanMD\Desktop\Module\quocte_c\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ThuanMD\Desktop\Module\quocte_c\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\ThuanMD\Desktop\Module\quocte_c\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\bin\WebApplication2.dll
+C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\bin\WebApplication2.pdb
+C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\ThuanMD\Desktop\Module-sample-new\quocte_c\quocte_c\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\Tai Tran\Documents\PAYGATE\PAYGATE WEB sample code\PAYGATE_C#\WebApplication2\bin\WebApplication2.dll.config
+C:\Users\Tai Tran\Documents\PAYGATE\PAYGATE WEB sample code\PAYGATE_C#\WebApplication2\bin\WebApplication2.dll
+C:\Users\Tai Tran\Documents\PAYGATE\PAYGATE WEB sample code\PAYGATE_C#\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Tai Tran\Documents\PAYGATE\PAYGATE WEB sample code\PAYGATE_C#\WebApplication2\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\Tai Tran\Documents\PAYGATE\PAYGATE WEB sample code\PAYGATE_C#\WebApplication2\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Tai Tran\Documents\PAYGATE\PAYGATE WEB sample code\PAYGATE_C#\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Tai Tran\Documents\PAYGATE\PAYGATE WEB sample code\PAYGATE_C#\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\Tai Tran\Documents\PAYGATE\PAYGATE WEB sample code\PAYGATE_C#\WebApplication2\bin\Newtonsoft.Json.dll
+C:\Users\Tai Tran\Documents\PAYGATE\PAYGATE WEB sample code\PAYGATE_C#\WebApplication2\bin\Newtonsoft.Json.xml
+C:\Users\Tai Tran\Documents\PAYGATE\PAYGATE WEB sample code\PAYGATE_C#\WebApplication2\obj\Debug\WebApplication1.csproj.CopyComplete
+C:\Users\Tai Tran\Documents\PAYGATE\PAYGATE WEB sample code\PAYGATE_C#\WebApplication2\bin\BouncyCastle.Crypto.dll
+C:\Users\Tai Tran\Documents\PAYGATE\PAYGATE WEB sample code\PAYGATE_C#\WebApplication2\bin\BouncyCastle.Crypto.xml

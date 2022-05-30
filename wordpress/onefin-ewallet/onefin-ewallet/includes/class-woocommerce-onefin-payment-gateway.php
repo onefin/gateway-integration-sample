@@ -135,7 +135,7 @@ owIDAQAB
             'domain' => array(
                 'title' => __('Domain', WC_ONEFIN_PLUGIN_TEXT_DOMAIN),
                 'type' => 'text',
-                'default' => 'https://sit-pgw.onefin.vn/public/mweb/generatePayment/',
+                'default' => 'https://sit-pgw.onefin.vn/public/mweb/',
                 'desc_tip' => true,
                 'description' => __('Domain.', WC_ONEFIN_PLUGIN_TEXT_DOMAIN),
             ),

@@ -42,7 +42,6 @@ class WC_OneFin_Payment_HANDLER
     public function onefin_gateway_page_shortcode()
     {
         ob_start();
-
         $order = new WC_Order(sanitize_text_field($_GET['order']));
 
         $total = (int)$order->get_total();
@@ -61,7 +60,7 @@ class WC_OneFin_Payment_HANDLER
             "merchantCode" => $this->get_option('merCode'),
             "currency" => $this->get_option('currency'),
             "amount" => $total * 100,
-            "trxRefNo" => $order_data['id'],
+            "trxRefNo" => (string) $order_data['id'],
             "backendURL" => $order->get_checkout_order_received_url(),
             "responsePageURL" => $order->get_checkout_order_received_url(),
             "mobileNo" => empty($order_data['billing']['phone']) ? $this->get_option('merMobile') : $order_data['billing']['phone'],
@@ -81,13 +80,12 @@ class WC_OneFin_Payment_HANDLER
 //var_dump($messages); die;
         // thực hiện kết nói với onefin để lấy link thanh toán
         $data = ['signature' => $signature, 'messages' => $messages];
-        $url = $this->get_option('domain').'webInitiateRequest';
-
+        $url = $this->get_option('domain').'generatePayment';
         $result = $this->curl_post($url, $data);
         // nếu kết nói không thành công
         if (isset($result['errorDTO'])) {
             echo '<p> '.$result['errorDTO']['message'].' </p>';
-            echo '<button type="submit" class="button primary mt-0 pull-left small" aria-disabled="true" onclick="proceed_payment()">Thông tin đơn hàng</button>
+            echo '<button id="pay_button" type="submit" class="button primary mt-0 pull-left small" aria-disabled="true" onclick="proceed_payment()">Thông tin đơn hàng</button>
                     <input type="hidden" id="returnUrl" value="'.$order->get_checkout_order_received_url().'">';
         } elseif (isset($result['signature'])) {
             $signature = $result['signature'];
@@ -98,9 +96,12 @@ class WC_OneFin_Payment_HANDLER
                 $paymentURL = $messages['paymentURL'];
 
                 echo '<p> '.__('Few seconds to redirect or click pay now!.').' </p>';
-                echo '<button type="submit" class="button primary mt-0 pull-left small" aria-disabled="true" 
+                echo '<button id="pay_button" type="submit" class="button primary mt-0 pull-left small" aria-disabled="true" 
                         onclick="proceed_payment()">'.__('Pay Now', WC_ONEFIN_PLUGIN_TEXT_DOMAIN).'</button>
                 <input type="hidden" id="returnUrl" value="'.$paymentURL.'">';
+                echo '<script>var $ = jQuery;$(document).ready(function(){
+                    $("#pay_button").trigger("click");
+                });</script>';
             }
         }
         ?>
@@ -138,6 +139,7 @@ class WC_OneFin_Payment_HANDLER
     }
 
     public function signMessage($message) {
+        
         $private_key_pem = $this->get_option('privateKey');
 
         openssl_sign($message, $signature, $private_key_pem);
@@ -162,11 +164,11 @@ class WC_OneFin_Payment_HANDLER
 
         $messages = [
                 'merchantCode' => $this->get_option('merCode'),
-                'trxRefNo' => $order_id
+                'trxRefNo' => (string) $order_id
         ];
         $messages = json_encode($messages);
         $signature = $this->signMessage($messages);
-        $url = $this->get_option('domain').'checkTransactionStatus';
+        $url = $this->get_option('domain').'checkPayment';
         $data = ['signature' => $signature, 'messages' => $messages];
 
         $result = $this->curl_post($url, $data);
@@ -245,11 +247,11 @@ class WC_OneFin_Payment_HANDLER
 
                     $messages = [
                         'merchantCode' => $this->get_option('merCode'),
-                        'trxRefNo' => $order->get_id()
+                        'trxRefNo' => (string) $order->get_id()
                     ];
                     $messages = json_encode($messages);
                     $signature = $this->signMessage($messages);
-                    $url = $this->get_option('domain').'checkTransactionStatus';
+                    $url = $this->get_option('domain').'checkPayment';
                     $data = ['signature' => $signature, 'messages' => $messages];
 
                     $result = $this->curl_post($url, $data);
@@ -308,9 +310,7 @@ class WC_OneFin_Payment_HANDLER
      */
     public function onefin_enqueue_scripts()
     {
-        if (is_page($this->get_option('payment_submit_page'))) {
             wp_enqueue_script('onefin_payment_script', WC_ONEFIN_PLUGIN_URL . '/assets/js/payment.js', ['jquery'], '1.1', true);
-        }
     }
 
     /**

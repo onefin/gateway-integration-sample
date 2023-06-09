@@ -1,7 +1,7 @@
 Merchant portal
 
 onefintest@gmail.com
-Mk : Onefin@123
+Mk : Onefin@123456
 https://sit-v.onefin.vn:8201/#/
 
 Config
